@@ -4,7 +4,7 @@ This website presents "The European Atlas of Spatially Disaggregated Intergenera
 
 #### Contact
 
-For enquiries, please contact Sarah.McNamara[at]zew.de.
+For enquiries, please contact: Sarah.McNamara[at]zew.de
 
 
 
