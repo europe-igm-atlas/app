@@ -87,18 +87,6 @@ section .main-body{
     background: rgba(0, 0, 0, 0.4);
 }
 
-#authors {
-    padding: 4rem 0;
-}
-
-#authors-subtitle {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 3rem;
-    color: #ffffff;
-    letter-spacing: 1px;
-}
-
 .author-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
