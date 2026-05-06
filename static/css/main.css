@@ -250,13 +250,15 @@ section .main-body{
 
 .citation-btn {
     display: inline-block;
-    padding: 0.45rem 0.9rem;
-    border: 1px solid var(--h-title-color);
-    font-size: 0.85rem;
+    padding: 0.2rem 0.55rem;   
+    font-size: 0.75rem;        
     font-weight: 600;
+    border-radius: 6px;
+    border: 1px solid var(--h-title-color);
     text-decoration: none;
     color: var(--h-title-color);
     background: transparent;
+    line-height: 1.2;
 }
 
 .citation-btn:hover {
