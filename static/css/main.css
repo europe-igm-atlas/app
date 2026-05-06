@@ -226,3 +226,98 @@ section .main-body{
     background: var(--h-title-color);
     color: #fff;
 }
+
+citation-section {
+    padding: 4rem 0;
+}
+
+.citation-intro {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    max-width: 900px;
+}
+
+.citation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.citation-card {
+    background: rgba(255, 255, 255, 0.97);
+    border-radius: 18px;
+    padding: 2rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    border: 1px solid rgba(0,0,0,0.05);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.citation-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 34px rgba(0,0,0,0.18);
+}
+
+.citation-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--h-title-color);
+    margin-bottom: 1rem;
+}
+
+.citation-text {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.citation-text em {
+    font-style: italic;
+}
+
+.citation-buttons {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.citation-btn {
+    display: inline-block;
+    padding: 0.5rem 0.9rem;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.citation-btn-primary {
+    background: var(--h-title-color);
+    color: #fff;
+}
+
+.citation-btn-primary:hover {
+    background: #2f3bb8;
+}
+
+.citation-btn-outline {
+    border: 1px solid var(--h-title-color);
+    color: var(--h-title-color);
+    background: transparent;
+}
+
+.citation-btn-outline:hover {
+    background: var(--h-title-color);
+    color: #fff;
+}
+
+.citation-code {
+    background: #f7f7f9;
+    padding: 1rem;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 0.85rem;
+    overflow-x: auto;
+}
