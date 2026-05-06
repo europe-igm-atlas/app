@@ -246,6 +246,7 @@ section .main-body{
     display: flex;
     gap: 0.75rem;
     flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .citation-btn {
