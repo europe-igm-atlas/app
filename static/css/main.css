@@ -228,12 +228,17 @@ section .main-body{
 }
 
 .citation-box {
-    background: rgba(255, 255, 255, 0.97);
-    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
     padding: 1.5rem;
-    margin: 1.5rem 0;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.10);
-    border: 1px solid rgba(0,0,0,0.05);
+    margin: 1.8rem 0;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.citation-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.2);
 }
 
 .citation-buttons {
@@ -243,15 +248,16 @@ section .main-body{
 .citation-btn {
     display: inline-block;
     padding: 0.45rem 0.9rem;
-    border-radius: 8px;
+    border: 1px solid var(--h-title-color);
     font-size: 0.85rem;
     font-weight: 600;
     text-decoration: none;
-    background: var(--h-title-color);
-    color: #fff;
-    transition: background 0.2s ease;
+    color: var(--h-title-color);
+    background: transparent;
 }
 
 .citation-btn:hover {
-    background: #2f3bb8;
+    background: var(--h-title-color);
+    color: #fff;
 }
+
