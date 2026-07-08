@@ -267,3 +267,48 @@ section .main-body{
     color: #fff;
 }
 
+.presentation-box {
+    background: rgba(255,255,255,0.95);
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.presentation-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.2);
+}
+
+.presentation-box iframe {
+    width: 100%;
+    height: 750px;
+    border: none;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.presentation-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.presentation-btn {
+    display: inline-block;
+    padding: 0.35rem 0.8rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid var(--h-title-color);
+    text-decoration: none;
+    color: var(--h-title-color);
+    background: transparent;
+    transition: 0.2s;
+}
+
+.presentation-btn:hover {
+    background: var(--h-title-color);
+    color: white;
+}
