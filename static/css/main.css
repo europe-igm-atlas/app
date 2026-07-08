@@ -283,10 +283,9 @@ section .main-body{
 
 .presentation-box iframe {
     width: 100%;
-    height: 750px;
+    aspect-ratio: 16 / 9;
     border: none;
     border-radius: 12px;
-    background: #fff;
 }
 
 .presentation-footer {
